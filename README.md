@@ -369,6 +369,7 @@ Total (non-blocking)       ~0ms       User doesn't wait!
 - **[Basics Overview](docs/basics/overview.md)** - Architecture, components, and how MemLayer works
 - **[Quickstart Guide](docs/basics/quickstart.md)** - Get up and running in 5 minutes
 - **[Streaming Mode](docs/basics/streaming.md)** - Complete guide to streaming responses
+- **[API Reference](docs/API_REFERENCE.md)** - Complete API documentation with all methods and parameters
 
 ### Provider Setup
 - **[Providers Overview](docs/providers/README.md)** - Compare all providers, choose the right one

@@ -43,6 +43,8 @@ nav:
       - Claude: providers/claude.md
       - Gemini: providers/gemini.md
       - Ollama: providers/ollama.md
+      - LMStudio: providers/lmstudio.md
+
 
   - Services:
       - Consolidation: services/consolidation.md

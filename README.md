@@ -67,7 +67,7 @@ pip install memlayer
 ### Basic Usage
 
 ```python
-from memlayer.wrappers.openai import OpenAI
+from memlayer import OpenAI
 
 # Initialize with memory capabilities
 client = OpenAI(

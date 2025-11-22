@@ -28,6 +28,12 @@ Memlayer supports multiple LLM providers with a unified API. Each provider has s
 - **Best for**: Privacy, offline use, zero API costs
 - **Setup**: Requires local Ollama server (`ollama serve`)
 
+### [LMStudio (Local Models)](./lmstudio.md) 
+- **Models**: Llama 4, Qwen 3, 100+ more
+- **Streaming**: ✅ Full support
+- **Best for**: Privacy, offline use, zero API costs
+- **Setup**: Requires local LMStudio server
+
 ## Quick Comparison
 
 | Provider | API Cost | Latency | Privacy | Offline |
@@ -36,17 +42,19 @@ Memlayer supports multiple LLM providers with a unified API. Each provider has s
 | Claude | $$ | Fast | Cloud | ❌ |
 | Gemini | $ | Fast | Cloud | ❌ |
 | Ollama | Free | Medium | Local | ✅ |
+| LMStudio | Free | Medium | Local | ✅ |
+
 
 ## Configuration Basics
 
 All providers share the same Memlayer API:
 
 ```python
-from memlayer.wrappers.openai import OpenAI
-from memlayer.wrappers.claude import Claude
-from memlayer.wrappers.gemini import Gemini
-from memlayer.wrappers.ollama import Ollama
-
+from memlayer import OpenAI
+from memlayer import Claude
+from memlayer import Gemini
+from memlayer import Ollama
+from memlayer import LMStudio
 # OpenAI
 client = OpenAI(
     api_key="your-key",
@@ -72,6 +80,13 @@ client = Gemini(
 client = Ollama(
     model="llama3.2",
     host="http://localhost:11434",
+    user_id="alice",
+    operation_mode="local"  # Fully offline
+)
+
+client = LMStudio(
+    model="llama3.2",
+    host="http://localhost:1234/v1",
     user_id="alice",
     operation_mode="local"  # Fully offline
 )
@@ -110,6 +125,8 @@ Click on any provider below for detailed setup instructions:
 - **[claude.md](./claude.md)** — Anthropic Claude setup and features
 - **[gemini.md](./gemini.md)** — Google Gemini configuration
 - **[ollama.md](./ollama.md)** — **🆕 Complete guide to local models**: installation, model recommendations, fully offline setup
+- **[lmstudio.md](./lmstudio.md)** — **🆕 Complete guide to LMStudio local models**: installation, model recommendations, fully offline setup
+
 
 ## Getting Started
 

